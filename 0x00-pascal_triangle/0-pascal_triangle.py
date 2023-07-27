@@ -3,13 +3,14 @@
 Defines function that returns a list of lists of integers
 representing the Pascal's triangle of n
 """
+
 def pascal_triangle(n):
     """Prints a pascal triangle"""
-    arr = [];
+    arr = []
 
-    if ( n <= 0):
-        return arr;
-  
+    if (n <= 0):
+        return arr
+
     previous = [1]
     for row_index in range(n):
         rowlist = []
@@ -25,5 +26,5 @@ def pascal_triangle(n):
                     rowlist.append(previous[i - 1] + previous[i])
         previous = rowlist
         arr.append(rowlist)
-                
-    return arr;
+
+    return arr
