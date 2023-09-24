@@ -3,6 +3,7 @@
 Defines function that checks the minimum number of coins to make change
 """
 
+
 def makeChange(coins, total):
     """
     ********************************************
