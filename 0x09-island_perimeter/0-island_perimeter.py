@@ -4,7 +4,11 @@ Defines function to calculate the perimeter of an island
 represented by a list of list of ints
 """
 
+
 def island_perimeter(grid):
+    """
+    Calculates the perimeter of an island represented by a list of list of ints
+    """
     if not grid:
         return 0
 
